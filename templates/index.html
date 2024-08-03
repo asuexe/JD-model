@@ -1,0 +1,29 @@
+{% extends 'includes/layout.html' %}
+
+{% block body %}
+<main class="container">
+  <div class="bg-light p-5 rounded mt-5">
+    <h1>Online AI Content Generator Build</h1>
+    <p class="lead"> This  is a web application created in Flask that can be used to generate random content using Artificial Intelligence API from OpenAI.
+    </p>
+  </div>
+
+
+  <div class="p-5 rounded mt-1">
+    <div class="row">
+      <div class="col-lg-3 mb-3">
+        <div class="card">
+          <div class="card-header">
+            Job Description
+          </div>
+          <div class="card-body">
+            <h5 class="card-title"> Generate Job Descriptions  </h5>
+            <p class="card-text">Are you trying to come up with professional sounding job descriptions but have hit a writers block? Let AI help you along. </p>
+            <a href="/job-description" class="btn btn-primary">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+{% endblock %}
